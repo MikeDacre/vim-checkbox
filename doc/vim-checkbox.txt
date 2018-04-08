@@ -1,0 +1,61 @@
+*vim-checkbox_readme*	For Vim version 7.2	Last change: 2018-04-08
+
+                                                                *vim-checkbox*
+vim-checkbox  0.2
+
+vim-checkbox was written by Jonas Kramer and modified by Mike Dacre. It
+provides simple bindings to add, remove, and toggle checkboxes.
+
+  License                                                 |vim-checkbox-license|
+  Version                                                 |vim-checkbox-version|
+  Usage                                                     |vim-checkbox-usage|
+  Configuring                                              |vim-checkbox-config|
+
+
+==============================================================================
+License                                                   *vim-checkbox-license*
+
+
+VimOutliner Copyright (C) 2010 by Jonas Kramer
+Licensed under the Artistic License, 2.0
+
+    HTML: https://opensource.org/licenses/Artistic-2.0
+
+==============================================================================
+Using vim-checkbox
+
+                                                           *vim-checkbox-usage*
+Usage~
+
+Type `<leader>tt` to toggle the (first) checkbox on the current line. A checkbox
+is either `[ ]` (unchecked) or `[x]` (checked). For example,
+
+    * [ ] Do some work.
+
+becomes
+
+	* [x] Do some work.
+
+and vice versa.
+
+To insert/remove the checkbox, type `<leader>cb`.
+
+==============================================================================
+Configuring vim-checkbox
+
+                                                           *vim-checkbox-config*
+Configuring~
+
+To check the checked character from x, set `g:checkbox_checked_char`
+
+    `let g:checkbox_checked_char = 'X'`
+
+To use the underline style unchecked box, set `g:checkbox_unchecked_underline`
+to 1.
+
+To customize the commands:
+
+    `let g:checkbox_toggle_command = '<leader>tt'`
+    `let g:checkbox_insert_remove_command = '<leader>cb'`
+
+ vim:tw=78:ts=8:ft=help:norl:
