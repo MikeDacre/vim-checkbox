@@ -1,6 +1,6 @@
 " ****************************************************************************
 " File:             checkbox.vim
-" Author:           Jonas Kramer
+" Author:           Jonas Kramer, modified by Mike Dacre
 " Version:          0.2
 " Last Modified:    2018-04-08
 " Copyright:        Copyright (C) 2010 by Jonas Kramer. Published under the
