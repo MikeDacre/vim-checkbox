@@ -30,15 +30,15 @@ Usage~
 Type `<leader>tt` to toggle the (first) checkbox on the current line. A checkbox
 is either `[ ]` (unchecked) or `[x]` (checked). For example,
 
-    * [ ] Do some work.
+    `* [ ] Do some work.`
 
 becomes
 
-	* [x] Do some work.
+    `* [x] Do some work.`
 
 and vice versa.
 
-To insert/remove the checkbox, type `<leader>cb`.
+To insert/remove the checkbox, type `<leader>cb`
 
 ==============================================================================
 Configuring vim-checkbox
